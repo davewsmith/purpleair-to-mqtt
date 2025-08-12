@@ -23,5 +23,5 @@ Then,
 
      python purpleair_to_mqtt.py <sensorindex>
 
-Setting DEBUG=1 in `.env` loads sample data and prints the MQTT topic and message instead
-of requiring a server.
+Setting DEBUG=1 in `.env` loads sample data and prints the topic and message instead
+of publishing to MQTT.
